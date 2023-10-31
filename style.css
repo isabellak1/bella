@@ -14,13 +14,13 @@
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
 * {                                        /* geldt voor alles */
-  box-sizing: border-box;                  /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                             /* standaard marge 0 */
+  box-sizing: border-box;                /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 10px;                           /* standaard marge 0 */
 }
 
 html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  margin: 0px;                   /* standaard marge 0 */
+  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -31,22 +31,22 @@ div {                             /* geldt voor div */
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  width: 90%                 /* vaste breedte van 700 pixels */
+  margin; 20%           /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
-  margin: 10px 0px;
+  margin: 10px 0px
 }
 
 main {                       
   text-align: justify;            /* tekst uitvullen */}
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
-  margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
-} 
-
+  h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+    margin: 10px 0px;
+    text-align: center;             /* tekst centreren */
+  } 
+  
 p {
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
@@ -66,8 +66,8 @@ img {
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-tekst {
-  float:right;
-  width: 450px;
+  float:none;
+  
 }
 
 /* Indeling voor sub pagina */
@@ -75,7 +75,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: rgb(60, 172, 26);
 }
 
 .smalltext {
@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: rgb(60, 179, 24);
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #2bb900bd;
     overflow: hidden;
 }
 
@@ -109,16 +109,16 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #ffffffbd;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: rgb(60, 179, 24);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #2bb900bd;
 }
