@@ -31,8 +31,8 @@ div {                             /* geldt voor div */
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 90%                 /* vaste breedte van 700 pixels */
-  margin; 20%           /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  width: 1600px;                 /* vaste breedte van 700 pixels */
+  margin: auto;           /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
