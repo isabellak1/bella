@@ -20,7 +20,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                   /* standaard marge 0 */
-  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
+  background-color: #e0c4e5;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -49,7 +49,7 @@ main {
   
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify;           /* tekst links en rechts uitvullen */
 }
 
 img {
@@ -61,12 +61,10 @@ img {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 .item-plaatje {
-  float:left;
-  width:250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+ 
 }
 .item-tekst {
-  float:none;
+  
   
 }
 
@@ -75,7 +73,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: rgb(60, 172, 26);
+      color: #9453d9d2;
 }
 
 .smalltext {
@@ -84,7 +82,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgb(60, 179, 24);
+    color: #8a47d1;
     text-decoration: none;
 }
 
@@ -99,7 +97,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #2bb900bd;
+    background-color: #955ad4cd;
     overflow: hidden;
 }
 
@@ -116,9 +114,9 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(60, 179, 24);
+    background-color: #8a47d1;
 }
 
 nav li a.active {
-    background-color: #2bb900bd;
+    background-color: #8a47d1;
 }
