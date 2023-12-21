@@ -20,7 +20,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                   /* standaard marge 0 */
-  background-color: #e0c4e5;    /* achtergrondkleur lichtgrijs */
+  background-color: #fcfcfcf4;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -60,13 +60,7 @@ img {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje {
- 
-}
-.item-tekst {
-  
-  
-}
+
 
 /* Indeling voor sub pagina */
 
